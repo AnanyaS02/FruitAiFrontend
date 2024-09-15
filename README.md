@@ -1,0 +1,2 @@
+# FruitAiFrontend
+FruitAi application
