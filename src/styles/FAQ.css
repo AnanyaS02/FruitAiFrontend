@@ -1,0 +1,84 @@
+/* src/App.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 100vh;
+  min-height: 100vh;
+  background: linear-gradient(to right, #D291FF, #87CEEB);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.faq-section {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(243, 247, 255, 0.8);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 36px !important;
+    font-weight: bold !important; 
+    color: #333; 
+    margin-bottom: 20px !important;
+  }
+
+  @media (max-width: 768px) {
+    
+    h1 {
+      font-size: 28px;
+    }
+  }
+  .faq-form-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+  }
+  
+  .faq-form input,
+  .faq-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .faq-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .faq-form button:hover {
+    background-color: #218838;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .error {
+    color: red;
+  }
+  .error-message {
+    color: red; 
+    font-weight: bold; 
+    margin-top: 10px;  
+  }

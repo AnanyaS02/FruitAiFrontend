@@ -1,0 +1,97 @@
+/* Main container for the screen */
+.main-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, #D291FF, #87CEEB);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Header section for the title */
+  .header h1 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Grid container for the buttons */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Style for each button (grid item) */
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: bold;
+  }
+  
+  .grid-item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Specific styles for individual buttons */
+  .chat {
+    background-color: #fde49c;
+    color: #e45dba;
+    box-shadow: 0 4px 8px rgba(255, 215, 119, 0.4), 0 6px 20px rgba(255, 215, 119, 0.2);
+  }
+  
+  .translate {
+    background-color: #c1d8f9;
+    color: #2b517e;
+    box-shadow: 0 4px 8px rgba(193, 216, 249, 0.4), 0 6px 20px rgba(193, 216, 249, 0.2);
+  }
+  
+  .faqs {
+    background-color: #cdf2e1;
+    color: #82ba62;
+    box-shadow: 0 4px 8px rgba(204, 242, 225, 0.4), 0 6px 20px rgba(204, 242, 225, 0.2);
+  }
+  
+  .about {
+    background-color: #fad1f1;
+    color: #da62b1;
+    box-shadow: 0 4px 8px rgba(250, 209, 241, 0.4), 0 6px 20px rgba(250, 209, 241, 0.2);
+  }
+  
+  /* Bottom dots navigation */
+  .dots {
+    margin-top: 30px;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    opacity: 0.5;
+  }
+  
+  .dot:hover {
+    opacity: 1;
+  }
+  

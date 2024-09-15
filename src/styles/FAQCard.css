@@ -1,0 +1,77 @@
+/* src/styles/FAQCard.css */
+.faq-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px; 
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.faq-card-image {
+  flex-shrink: 0;
+  width: 150px; 
+  height: auto;
+  margin-right: 20px;
+}
+
+.faq-card-image img {
+  width: 100%; 
+  height: auto;
+  border-radius: 8px;
+}
+
+.faq-card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+}
+
+.faq-title {
+  font-size: 1.2rem;
+  font-weight: bold; 
+  color: red; 
+  margin-bottom: 10px; 
+}
+
+.faq-question {
+  font-size: 1.2rem;
+  font-weight: bold; 
+  color: red; 
+  margin-bottom: 10px;
+}
+
+.faq-answer {
+  font-size: 1rem;
+  color: rgb(12, 148, 202); 
+  font-weight: bold;
+}
+.edit-button {
+  background-color: #4caf50; 
+  color: white;
+  min-width: 70px;
+  border-radius: 4px;
+  opacity: 0.9;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+  min-width: 70px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f;
+}
